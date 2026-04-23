@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<title>Bolapelangi | Daftar, Login & RTP</title>
+<link rel="canonical" href="https://shortq.org/bolapelangi">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="description" content="Situs resmi Joker Leader Bolapelangi. Daftar, login, dan cek RTP live terbaru dengan tampilan mewah dan premium.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Bolapelangi Official","url":"https://shortq.org/bolapelangi"}</script>
+
+<style>
+/* ═══════ DARK THEME ═══════ */
+[data-theme="dark"] {
+  --bg:           #04060F;
+  --bg2:          #080C1A;
+  --bg3:          #0C1220;
+  --surface:      rgba(255,255,255,0.035);
+  --surface2:     rgba(255,255,255,0.06);
+  --gold:         #C9A84C;
+  --gold-light:   #E8C97A;
+  --gold-pale:    rgba(201,168,76,0.1);
+  --gold-border:  rgba(201,168,76,0.22);
+  --blue:         #3B82F6;
+  --blue-deep:    #1D4ED8;
+  --blue-light:   #60A5FA;
+  --blue-pale:    rgba(59,130,246,0.08);
+  --blue-border:  rgba(59,130,246,0.22);
+  --text:         #EEF2FF;
+  --text-muted:   #6B7CB0;
+  --text-dim:     #2E3A60;
+  --border-soft:  rgba(255,255,255,0.055);
+  --border:       rgba(255,255,255,0.1);
+  --shd-blue:     0 8px 32px rgba(29,78,216,0.5), 0 2px 8px rgba(59,130,246,0.2), 0 0 0 1px rgba(59,130,246,0.12);
+  --shd-gold:     0 8px 32px rgba(201,168,76,0.32), 0 2px 8px rgba(201,168,76,0.18);
+  --shd-card:     0 4px 28px rgba(0,0,0,0.55), 0 1px 4px rgba(0,0,0,0.35);
+  --shd-glow:     0 0 80px rgba(29,78,216,0.18), 0 0 160px rgba(29,78,216,0.07);
+  --header-bg:    rgba(4,6,15,0.88);
+}
+
+/* ═══════ LIGHT THEME ═══════ */
+[data-theme="light"] {
+  --bg:           #EFF3FF;
+  --bg2:          #FFFFFF;
+  --bg3:          #E2E8FF;
+  --surface:      rgba(37,99,235,0.04);
+  --surface2:     rgba(37,99,235,0.08);
+  --gold:         #A16207;
+  --gold-light:   #CA8A04;
+  --gold-pale:    rgba(161,98,7,0.08);
+  --gold-border:  rgba(161,98,7,0.22);
+  --blue:         #2563EB;
+  --blue-deep:    #1E40AF;
+  --blue-light:   #3B82F6;
+  --blue-pale:    rgba(37,99,235,0.06);
+  --blue-border:  rgba(37,99,235,0.2);
+  --text:         #0F172A;
+  --text-muted:   #475569;
+  --text-dim:     #94A3B8;
+  --border-soft:  rgba(37,99,235,0.09);
+  --border:       rgba(37,99,235,0.16);
+  --shd-blue:     0 6px 24px rgba(37,99,235,0.18), 0 2px 6px rgba(37,99,235,0.1);
+  --shd-gold:     0 6px 24px rgba(161,98,7,0.18),  0 2px 6px rgba(161,98,7,0.1);
+  --shd-card:     0 2px 16px rgba(30,64,175,0.07), 0 1px 3px rgba(30,64,175,0.05);
+  --shd-glow:     0 0 60px rgba(37,99,235,0.06);
+  --header-bg:    rgba(239,243,255,0.92);
+}
+
+/* ═══════ BASE ═══════ */
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:'DM Sans',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  overflow-x:hidden;
+  transition:background 0.4s ease, color 0.3s ease;
+}
+
+/* AMBIENT BLOBS */
+.ambient { position:fixed; inset:0; pointer-events:none; z-index:0; overflow:hidden; }
+.ab {
+  position:absolute; border-radius:50%; filter:blur(90px);
+  transition:opacity 0.4s;
+}
+.ab1 {
+  width:520px; height:520px; top:-160px; left:-110px;
+  background:radial-gradient(circle, rgba(29,78,216,0.2) 0%, transparent 70%);
+}
+.ab2 {
+  width:400px; height:400px; bottom:0; right:-80px;
+  background:radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
+}
+.ab3 {
+  width:280px; height:280px; top:45%; left:50%; transform:translateX(-50%);
+  background:radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 70%);
+}
+[data-theme="light"] .ab1 { background:radial-gradient(circle, rgba(37,99,235,0.1) 0%, transparent 70%); }
+[data-theme="light"] .ab2 { background:radial-gradient(circle, rgba(37,99,235,0.07) 0%, transparent 70%); }
+[data-theme="light"] .ab3 { background:radial-gradient(circle, rgba(161,98,7,0.04) 0%, transparent 70%); }
+
+/* PAGE */
+.page {
+  position:relative; z-index:2;
+  max-width:480px; margin:0 auto; padding:0 0 72px;
+}
+
+/* ── HEADER ── */
+.header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:16px 22px;
+  border-bottom:1px solid var(--border-soft);
+  background:var(--header-bg);
+  backdrop-filter:blur(24px);
+  position:sticky; top:0; z-index:100;
+  transition:background 0.4s;
+}
+.header-logo {
+  font-family:'Syne',sans-serif; font-weight:800; font-size:18px;
+  letter-spacing:0.06em;
+  background:linear-gradient(135deg, var(--blue-light), var(--blue));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+.header-right { display:flex; align-items:center; gap:10px; }
+.header-badge {
+  font-size:10px; font-weight:600; letter-spacing:0.09em;
+  color:var(--gold); background:var(--gold-pale); border:1px solid var(--gold-border);
+  padding:4px 11px; border-radius:100px; text-transform:uppercase;
+}
+
+/* TOGGLE */
+.tog {
+  width:42px; height:23px; border-radius:100px;
+  border:1px solid var(--border); background:var(--surface2);
+  cursor:pointer; position:relative;
+  transition:background 0.3s, border-color 0.3s;
+  flex-shrink:0;
+}
+.tog-k {
+  position:absolute; top:2px; left:2px;
+  width:17px; height:17px; border-radius:50%;
+  background:var(--blue-light);
+  box-shadow:0 2px 8px rgba(59,130,246,0.55);
+  transition:transform 0.35s cubic-bezier(0.34,1.56,0.64,1), background 0.3s, box-shadow 0.3s;
+  display:flex; align-items:center; justify-content:center;
+  font-size:9px; line-height:1; user-select:none;
+}
+[data-theme="light"] .tog-k {
+  transform:translateX(19px);
+  background:var(--gold-light);
+  box-shadow:0 2px 8px rgba(202,138,4,0.45);
+}
+[data-theme="light"] .tog { background:var(--gold-pale); border-color:var(--gold-border); }
+
+/* ── HERO ── */
+.hero { padding:44px 24px 34px; text-align:center; position:relative; }
+
+.ring {
+  width:110px; height:110px; margin:0 auto 26px;
+  position:relative; display:flex; align-items:center; justify-content:center;
+}
+.ring::before {
+  content:''; position:absolute; inset:-6px; border-radius:50%;
+  background:conic-gradient(var(--blue-light), var(--blue), var(--blue-deep), transparent 45%, var(--blue-deep), var(--blue), var(--blue-light));
+  animation:spin 5s linear infinite; opacity:0.85;
+}
+.ring::after {
+  content:''; position:absolute; inset:1px; border-radius:50%;
+  background:var(--bg);
+  box-shadow:var(--shd-blue);
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+
+.avatar-inner {
+  width:98px; height:98px; border-radius:50%;
+  background:linear-gradient(145deg, var(--blue-deep), var(--blue));
+  display:flex; align-items:center; justify-content:center;
+  position:relative; z-index:1;
+  font-family:'Syne',sans-serif; font-size:26px; font-weight:800;
+  color:#fff; letter-spacing:-1px;
+  box-shadow:inset 0 2px 10px rgba(255,255,255,0.18);
+}
+
+.hero-title {
+  font-family:'Syne',sans-serif; font-size:31px; font-weight:800;
+  letter-spacing:-0.03em; line-height:1.08;
+  background:linear-gradient(155deg, var(--text) 15%, var(--blue-light) 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  margin-bottom:8px;
+}
+[data-theme="light"] .hero-title {
+  background:linear-gradient(155deg, #0F172A 20%, var(--blue) 100%);
+  -webkit-background-clip:text; background-clip:text;
+}
+.hero-sub {
+  font-size:12px; color:var(--text-muted);
+  letter-spacing:0.1em; text-transform:uppercase;
+}
+
+/* ── STATS ── */
+.stats {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+  background:var(--border-soft);
+  margin:0 22px 30px; border-radius:20px; overflow:hidden;
+  border:1px solid var(--border-soft);
+  box-shadow:var(--shd-card), var(--shd-glow);
+}
+.stat {
+  padding:18px 10px; text-align:center; background:var(--bg2);
+  transition:background 0.2s;
+}
+.stat:hover { background:var(--bg3); }
+.stat-n {
+  font-family:'Syne',sans-serif; font-size:22px; font-weight:800;
+  background:linear-gradient(135deg, var(--blue-light), var(--blue));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  display:block;
+}
+.stat-l {
+  font-size:10px; letter-spacing:0.1em; text-transform:uppercase;
+  color:var(--text-muted); margin-top:4px; display:block;
+}
+
+/* ── BUTTONS ── */
+.ctag { padding:0 22px; display:flex; flex-direction:column; gap:11px; margin-bottom:32px; }
+.btn {
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  padding:15px 24px; border-radius:20px;
+  font-family:'Syne',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.04em;
+  text-decoration:none; cursor:pointer;
+  transition:transform 0.15s, box-shadow 0.2s;
+  position:relative; overflow:hidden;
+}
+.btn:active { transform:scale(0.975); }
+.btn::after {
+  content:''; position:absolute; inset:0;
+  background:linear-gradient(135deg, rgba(255,255,255,0.11) 0%, transparent 55%);
+  pointer-events:none;
+}
+.btn-ico { width:18px; height:18px; flex-shrink:0; }
+
+.btn-gold {
+  background:linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, #7A5510 100%);
+  color:#0a0700; border:1px solid rgba(201,168,76,0.35);
+  box-shadow:var(--shd-gold);
+}
+[data-theme="light"] .btn-gold { color:#fff; }
+.btn-gold:hover { box-shadow:0 14px 44px rgba(201,168,76,0.48), 0 4px 12px rgba(201,168,76,0.28); }
+
+.btn-blue {
+  background:linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%);
+  color:#fff; border:1px solid rgba(59,130,246,0.35);
+  box-shadow:var(--shd-blue);
+}
+.btn-blue:hover { box-shadow:0 14px 44px rgba(29,78,216,0.6), 0 4px 12px rgba(59,130,246,0.35); }
+
+.btn-ghost {
+  background:var(--blue-pale); color:var(--blue-light);
+  border:1px solid var(--blue-border); backdrop-filter:blur(8px);
+}
+[data-theme="light"] .btn-ghost { color:var(--blue); }
+.btn-ghost:hover { background:rgba(59,130,246,0.13); box-shadow:0 4px 20px rgba(59,130,246,0.22); }
+
+/* ── SECTION LABEL ── */
+.slabel {
+  padding:0 22px; margin-bottom:14px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.slabel h2 {
+  font-family:'Syne',sans-serif; font-size:16px; font-weight:700; color:var(--text);
+}
+.slabel span { font-size:11px; color:var(--text-muted); }
+.live {
+  display:flex; align-items:center; gap:6px;
+  font-size:11px; font-weight:500; color:#4ade80;
+}
+.live::before {
+  content:''; width:6px; height:6px; border-radius:50%;
+  background:#4ade80; box-shadow:0 0 6px #4ade80;
+  animation:pdot 1.5s ease-in-out infinite;
+}
+@keyframes pdot { 0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.35;transform:scale(0.7);} }
+
+/* ── RTP CARD ── */
+.rtp-card {
+  margin:0 22px 30px; background:var(--bg2);
+  border:1px solid var(--border-soft); border-radius:20px;
+  overflow:hidden;
+  box-shadow:var(--shd-card), var(--shd-glow);
+}
+[data-theme="dark"] .rtp-card { border-color:rgba(59,130,246,0.1); }
+
+.rtp-row {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 18px; border-bottom:1px solid var(--border-soft);
+  transition:background 0.15s; cursor:pointer;
+}
+.rtp-row:last-child { border-bottom:none; }
+.rtp-row:hover { background:var(--blue-pale); }
+
+.rtp-l { display:flex; align-items:center; gap:12px; }
+.rtp-icon {
+  width:38px; height:38px; border-radius:11px;
+  background:var(--surface); border:1px solid var(--border-soft);
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; flex-shrink:0;
+}
+[data-theme="dark"] .rtp-icon { box-shadow:0 2px 10px rgba(59,130,246,0.15); }
+.rtp-name { font-size:13px; font-weight:500; color:var(--text); line-height:1.3; }
+.rtag {
+  display:inline-block; font-size:9px; font-weight:700;
+  letter-spacing:0.07em; padding:2px 7px; border-radius:5px;
+  margin-top:2px; text-transform:uppercase;
+}
+.t-hot { background:rgba(239,68,68,0.14); color:#f87171; }
+.t-new { background:rgba(167,139,250,0.14); color:#a78bfa; }
+.t-top { background:rgba(59,130,246,0.14); color:var(--blue-light); }
+
+.rtp-r { text-align:right; }
+.rtp-pct {
+  font-family:'Syne',sans-serif; font-size:17px; font-weight:700;
+  color:var(--blue-light);
+}
+[data-theme="dark"] .rtp-pct { text-shadow:0 0 14px rgba(96,165,250,0.45); }
+[data-theme="light"] .rtp-pct { color:var(--blue); }
+.rbar {
+  width:55px; height:3px; background:rgba(59,130,246,0.1);
+  border-radius:3px; margin-top:5px; margin-left:auto; overflow:hidden;
+}
+.rbar-f {
+  height:100%; border-radius:3px;
+  background:linear-gradient(90deg, var(--blue-deep), var(--blue-light));
+}
+[data-theme="dark"] .rbar-f { box-shadow:0 0 6px rgba(96,165,250,0.45); }
+
+/* ── PROMO ── */
+.pbanner {
+  margin:0 22px 14px;
+  background:linear-gradient(135deg, rgba(59,130,246,0.1), rgba(29,78,216,0.04));
+  border:1px solid var(--blue-border); border-radius:20px;
+  padding:18px 20px; display:flex; align-items:center; gap:14px;
+  position:relative; overflow:hidden;
+  box-shadow:var(--shd-blue);
+}
+[data-theme="light"] .pbanner { box-shadow:0 4px 20px rgba(37,99,235,0.12); }
+.pbanner::before {
+  content:''; position:absolute; top:-40px; right:-40px;
+  width:120px; height:120px; border-radius:50%;
+  background:radial-gradient(circle, rgba(59,130,246,0.22), transparent 70%);
+}
+.pbanner-ico { font-size:28px; flex-shrink:0; }
+.pbanner-t h3 {
+  font-family:'Syne',sans-serif; font-size:13px; font-weight:800;
+  color:var(--blue-light); letter-spacing:0.02em; margin-bottom:3px;
+}
+[data-theme="light"] .pbanner-t h3 { color:var(--blue-deep); }
+.pbanner-t p { font-size:11px; color:var(--text-muted); line-height:1.4; }
+
+.pdiv {
+  margin:0 22px 12px; display:flex; align-items:center; gap:10px;
+}
+.pdiv-l { flex:1; height:1px; background:var(--border-soft); }
+.pdiv-t {
+  font-size:10px; letter-spacing:0.1em; text-transform:uppercase;
+  color:var(--text-dim); font-weight:600;
+}
+
+.plist { margin:0 22px 26px; display:flex; flex-direction:column; gap:9px; }
+.pitem {
+  background:var(--bg2); border:1px solid var(--border-soft); border-radius:12px;
+  padding:13px 15px; display:flex; align-items:center; gap:13px;
+  transition:border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  position:relative; overflow:hidden;
+  box-shadow:var(--shd-card);
+}
+.pitem::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background:linear-gradient(180deg, var(--blue-light), var(--blue-deep));
+  opacity:0; transition:opacity 0.2s;
+}
+.pitem:hover { border-color:var(--blue-border); transform:translateX(3px); box-shadow:var(--shd-blue); }
+.pitem:hover::before { opacity:1; }
+
+.pico {
+  width:42px; height:42px; border-radius:12px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:20px; flex-shrink:0;
+}
+.pi-blue   { background:rgba(59,130,246,0.12); }
+.pi-indigo { background:rgba(99,102,241,0.12); }
+.pi-gold   { background:rgba(201,168,76,0.12); }
+.pi-cyan   { background:rgba(34,211,238,0.1); }
+.pi-violet { background:rgba(167,139,250,0.12); }
+[data-theme="dark"] .pi-blue   { box-shadow:0 2px 10px rgba(59,130,246,0.22); }
+[data-theme="dark"] .pi-indigo { box-shadow:0 2px 10px rgba(99,102,241,0.22); }
+[data-theme="dark"] .pi-gold   { box-shadow:0 2px 10px rgba(201,168,76,0.22); }
+[data-theme="dark"] .pi-cyan   { box-shadow:0 2px 10px rgba(34,211,238,0.18); }
+[data-theme="dark"] .pi-violet { box-shadow:0 2px 10px rgba(167,139,250,0.22); }
+
+.pbody { flex:1; }
+.pt {
+  font-family:'Syne',sans-serif; font-size:13px; font-weight:700;
+  color:var(--text); margin-bottom:2px; line-height:1.3;
+}
+.pd { font-size:11px; color:var(--text-muted); line-height:1.4; }
+.pval {
+  font-family:'Syne',sans-serif; font-size:17px; font-weight:800;
+  color:var(--blue-light); white-space:nowrap; text-align:right;
+}
+[data-theme="dark"] .pval { text-shadow:0 0 10px rgba(96,165,250,0.4); }
+[data-theme="light"] .pval { color:var(--blue-deep); }
+.pval small {
+  display:block; font-size:10px; font-weight:400;
+  color:var(--text-muted); font-family:'DM Sans',sans-serif;
+  margin-top:2px; text-shadow:none;
+}
+
+/* ── FOOTER ── */
+.footer {
+  margin:8px 22px 0; padding-top:22px;
+  border-top:1px solid var(--border-soft); text-align:center;
+}
+.f-brand {
+  font-family:'Syne',sans-serif; font-size:15px; font-weight:800;
+  background:linear-gradient(135deg, var(--blue-light), var(--blue));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  margin-bottom:6px;
+}
+.f-meta { font-size:11px; color:var(--text-dim); line-height:1.9; }
+.f-dots { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; }
+.f-dot { width:4px; height:4px; border-radius:50%; background:var(--blue-border); }
+
+/* ── ANIMATION ── */
+.fu { opacity:0; transform:translateY(16px); animation:fuA 0.5s ease forwards; }
+@keyframes fuA { to { opacity:1; transform:translateY(0); } }
+.d1{animation-delay:0.07s} .d2{animation-delay:0.14s} .d3{animation-delay:0.21s}
+.d4{animation-delay:0.28s} .d5{animation-delay:0.36s} .d6{animation-delay:0.46s}
+</style>
+</head>
+
+<body>
+<div class="ambient">
+  <div class="ab ab1"></div>
+  <div class="ab ab2"></div>
+  <div class="ab ab3"></div>
+</div>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header fu">
+    <div class="header-logo">BOLAPELANGI</div>
+    <div class="header-right">
+      <div class="header-badge">LOGIN</div>
+      <button class="tog" onclick="toggleTheme()" aria-label="Ganti tema">
+        <div class="tog-k" id="knob">☾</div>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero fu d1">
+    <div class="ring">
+      <div class="avatar-inner">BP</div>
+    </div>
+    <h1 class="hero-title">Bolapelangi<br>Official</h1>
+    <p class="hero-sub">Daftar· VIP Platinum</p>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats fu d2">
+    <div class="stat">
+      <span class="stat-n">125</span>
+      <span class="stat-l">Win</span>
+    </div>
+    <div class="stat">
+      <span class="stat-n">2.5M</span>
+      <span class="stat-l">Saldo</span>
+    </div>
+    <div class="stat">
+      <span class="stat-n">58</span>
+      <span class="stat-l">Lose</span>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="ctag fu d2">
+    <a href="https://shortq.org/bolapelangi" class="btn btn-gold">
+      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Daftar Sekarang
+    </a>
+    <a href="https://shortq.org/bolapelangi" class="btn btn-blue">
+      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke-linecap="round"/></svg>
+      Login Akun
+    </a>
+    <a href="https://pororokita.vercel.app/" class="btn btn-ghost">
+      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      RTP Live Hari Ini
+    </a>
+  </div>
+
+  <!-- RTP -->
+  <div class="slabel fu d3">
+    <h2>RTP Game Terupdate</h2>
+    <div class="live">Live</div>
+  </div>
+  <div class="rtp-card fu d3">
+    <div class="rtp-row">
+      <div class="rtp-l">
+        <div class="rtp-icon">🀄</div>
+        <div><div class="rtp-name">Mahjong Ways</div><span class="rtag t-hot">Hot</span></div>
+      </div>
+      <div class="rtp-r">
+        <div class="rtp-pct">97.8%</div>
+        <div class="rbar"><div class="rbar-f" style="width:97.8%"></div></div>
+      </div>
+    </div>
+    <div class="rtp-row">
+      <div class="rtp-l">
+        <div class="rtp-icon">⚡</div>
+        <div><div class="rtp-name">Gates of Olympus</div><span class="rtag t-top">Top</span></div>
+      </div>
+      <div class="rtp-r">
+        <div class="rtp-pct">98.1%</div>
+        <div class="rbar"><div class="rbar-f" style="width:98.1%"></div></div>
+      </div>
+    </div>
+    <div class="rtp-row">
+      <div class="rtp-l">
+        <div class="rtp-icon">✨</div>
+        <div><div class="rtp-name">Starlight Princess</div><span class="rtag t-new">New</span></div>
+      </div>
+      <div class="rtp-r">
+        <div class="rtp-pct">96.5%</div>
+        <div class="rbar"><div class="rbar-f" style="width:96.5%"></div></div>
+      </div>
+    </div>
+    <div class="rtp-row">
+      <div class="rtp-l">
+        <div class="rtp-icon">🍬</div>
+        <div><div class="rtp-name">Sweet Bonanza</div><span class="rtag t-hot">Hot</span></div>
+      </div>
+      <div class="rtp-r">
+        <div class="rtp-pct">95.8%</div>
+        <div class="rbar"><div class="rbar-f" style="width:95.8%"></div></div>
+      </div>
+    </div>
+    <div class="rtp-row">
+      <div class="rtp-l">
+        <div class="rtp-icon">🤠</div>
+        <div><div class="rtp-name">Wild West Gold</div><span class="rtag t-top">Top</span></div>
+      </div>
+      <div class="rtp-r">
+        <div class="rtp-pct">97.3%</div>
+        <div class="rbar"><div class="rbar-f" style="width:97.3%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROMO -->
+  <div class="slabel fu d4">
+    <h2>Promo Terbaru</h2>
+    <span>Masih berlaku</span>
+  </div>
+
+  <div class="pbanner fu d4">
+    <div class="pbanner-ico">🎁</div>
+    <div class="pbanner-t">
+      <h3>PROMO TERBARU BOLAPELANGI</h3>
+      <p>Bonus & Cashback mingguan aktif · Referral seumur hidup</p>
+    </div>
+  </div>
+
+  <div class="pdiv fu d4">
+    <div class="pdiv-l"></div>
+    <div class="pdiv-t">Cashback Mingguan</div>
+    <div class="pdiv-l"></div>
+  </div>
+
+  <div class="plist fu d4">
+    <div class="pitem">
+      <div class="pico pi-blue">🏆</div>
+      <div class="pbody">
+        <div class="pt">Cashback Sportsbook</div>
+        <div class="pd">Berlaku setiap minggu untuk semua member</div>
+      </div>
+      <div class="pval">15%<small>per minggu</small></div>
+    </div>
+    <div class="pitem">
+      <div class="pico pi-indigo">🎰</div>
+      <div class="pbody">
+        <div class="pt">Cashback Slot</div>
+        <div class="pd">Berlaku setiap minggu untuk semua member</div>
+      </div>
+      <div class="pval">15%<small>per minggu</small></div>
+    </div>
+  </div>
+
+  <div class="pdiv fu d5">
+    <div class="pdiv-l"></div>
+    <div class="pdiv-t">Bonus Referral</div>
+    <div class="pdiv-l"></div>
+  </div>
+
+  <div class="plist fu d5">
+    <div class="pitem">
+      <div class="pico pi-gold">🤝</div>
+      <div class="pbody">
+        <div class="pt">Referral Sportsbook</div>
+        <div class="pd">Bonus seumur hidup dari setiap referral</div>
+      </div>
+      <div class="pval">2.5%<small>seumur hidup</small></div>
+    </div>
+    <div class="pitem">
+      <div class="pico pi-cyan">🔁</div>
+      <div class="pbody">
+        <div class="pt">Rollingan Referral Sportsbook</div>
+        <div class="pd">Bonus rollingan dari referral sportsbook</div>
+      </div>
+      <div class="pval">0.1%<small>rollingan</small></div>
+    </div>
+    <div class="pitem">
+      <div class="pico pi-violet">🎲</div>
+      <div class="pbody">
+        <div class="pt">Rollingan Casino GD88</div>
+        <div class="pd">Bonus rollingan khusus Casino GD88</div>
+      </div>
+      <div class="pval">0.8%<small>rollingan</small></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer fu d6">
+    <div class="f-brand">BOLAPELANGI</div>
+    <div class="f-meta">© 2026 Joker Leader · Bolapelangi<br>Lisensi Resmi · Support 24 Jam</div>
+    <div class="f-dots">
+      <div class="f-dot"></div>
+      <div class="f-dot"></div>
+      <div class="f-dot"></div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+function toggleTheme(){
+  const h=document.documentElement, k=document.getElementById('knob');
+  const dark=h.getAttribute('data-theme')==='dark';
+  h.setAttribute('data-theme', dark?'light':'dark');
+  k.textContent = dark ? '☀' : '☾';
+}
+// Auto match system preference
+if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches){
+  document.documentElement.setAttribute('data-theme','light');
+  document.getElementById('knob').textContent='☀';
+}
+</script>
+</body>
+</html>
