@@ -1,533 +1,190 @@
 <!doctype html>
-<html lang="id" data-theme="dark">
+<html lang="id" data-theme="dark" ⚡>
 <head>
 <meta charset="utf-8">
-<title>Bolapelangi | Daftar, Login & RTP</title>
+<title>Bolapelangi | Daftar, Login & RTP Live - Official Partner</title>
 <link rel="canonical" href="https://shortq.org/bolapelangi">
+<link rel="icon" type="image/png" href="https://the.splg.site/images/2026/04/24/imagefd033afb026599ca.png">
+<link rel="apple-touch-icon" href="https://the.splg.site/images/2026/04/24/imagefd033afb026599ca.png">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<meta name="description" content="Situs resmi Joker Leader Bolapelangi. Daftar, login, dan cek RTP live terbaru dengan tampilan mewah dan premium.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<meta name="description" content="Situs resmi Joker Leader Bolapelangi dengan banner promosi spesial. Daftar, login, dan cek RTP live terbaru.">
+<meta name="amp-google-client-id-api" content="googleanalytics">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<style amp-custom>
+/*! BOLAPELANGI - DARK/LIGHT THEME WITH BANNERS */
+[data-theme="dark"]{--bg:#04060F;--bg2:#080C1A;--bg3:#0C1220;--surface:rgba(255,255,255,0.035);--gold:#C9A84C;--gold-light:#E8C97A;--gold-pale:rgba(201,168,76,0.1);--gold-border:rgba(201,168,76,0.22);--blue:#3B82F6;--blue-deep:#1D4ED8;--blue-light:#60A5FA;--blue-pale:rgba(59,130,246,0.08);--text:#EEF2FF;--text-muted:#6B7CB0;--border-soft:rgba(255,255,255,0.055);--shd-blue:0 8px 32px rgba(29,78,216,0.5);--shd-gold:0 8px 32px rgba(201,168,76,0.32);--shd-card:0 4px 28px rgba(0,0,0,0.55);--header-bg:rgba(4,6,15,0.88)}
+[data-theme="light"]{--bg:#EFF3FF;--bg2:#FFFFFF;--bg3:#E2E8FF;--surface:rgba(37,99,235,0.04);--gold:#A16207;--gold-light:#CA8A04;--gold-pale:rgba(161,98,7,0.08);--gold-border:rgba(161,98,7,0.22);--blue:#2563EB;--blue-deep:#1E40AF;--blue-light:#3B82F6;--blue-pale:rgba(37,99,235,0.06);--text:#0F172A;--text-muted:#475569;--border-soft:rgba(37,99,235,0.09);--shd-blue:0 6px 24px rgba(37,99,235,0.18);--shd-gold:0 6px 24px rgba(161,98,7,0.18);--shd-card:0 2px 16px rgba(30,64,175,0.07);--header-bg:rgba(239,243,255,0.92)}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;transition:background 0.3s ease;user-select:none;-webkit-user-select:none}
+.ambient{position:fixed;inset:0;pointer-events:none;z-index:0}
+.ab{position:absolute;border-radius:50%;filter:blur(90px)}
+.ab1{width:520px;height:520px;top:-160px;left:-110px;background:radial-gradient(circle,rgba(29,78,216,0.2)0%,transparent 70%)}
+.ab2{width:400px;height:400px;bottom:0;right:-80px;background:radial-gradient(circle,rgba(59,130,246,0.15)0%,transparent 70%)}
+.page{position:relative;z-index:2;max-width:480px;margin:0 auto;padding:0 0 72px}
+.header{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;border-bottom:1px solid var(--border-soft);background:var(--header-bg);backdrop-filter:blur(24px);position:sticky;top:0;z-index:100}
+.header-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:18px;letter-spacing:0.06em;background:linear-gradient(135deg,var(--blue-light),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.header-badge{font-size:10px;font-weight:600;letter-spacing:0.09em;color:var(--gold);background:var(--gold-pale);border:1px solid var(--gold-border);padding:4px 11px;border-radius:100px;text-decoration:none;display:inline-block}
+.tog{width:42px;height:23px;border-radius:100px;border:1px solid var(--border-soft);background:var(--surface);cursor:pointer;position:relative}
+.tog-k{position:absolute;top:2px;left:2px;width:17px;height:17px;border-radius:50%;background:var(--blue-light);box-shadow:0 2px 8px rgba(59,130,246,0.55);transition:transform 0.3s}
+[data-theme="light"] .tog-k{transform:translateX(19px);background:var(--gold-light)}
+.hero{padding:30px 24px 20px;text-align:center}
+.logo-wrapper{width:90px;height:90px;margin:0 auto 16px;position:relative}
+.logo-image{width:100%;height:100%;object-fit:cover;border-radius:50%;box-shadow:0 0 0 3px rgba(59,130,246,0.3),0 0 0 6px rgba(59,130,246,0.1)}
+.hero-title{font-family:'Syne',sans-serif;font-size:28px;font-weight:800;background:linear-gradient(155deg,var(--text)15%,var(--blue-light)100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{font-size:11px;color:var(--text-muted);letter-spacing:0.1em}
 
-<!-- SECURITY: No cache & no referrer -->
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<meta name="referrer" content="no-referrer">
-<meta name="robots" content="noindex, nofollow">
+/* BANNER CAROUSEL - AREA UTAMA */
+.banner-area{margin:10px 16px 20px;border-radius:24px;overflow:hidden;box-shadow:var(--shd-card)}
+.banner-img{width:100%;border-radius:24px}
+.carousel-caption{padding:12px;text-align:center;background:var(--bg2);border-radius:0 0 24px 24px}
+.carousel-caption p{font-size:11px;color:var(--text-muted)}
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Bolapelangi Official","url":"https://shortq.org/bolapelangi"}</script>
+/* STATS */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border-soft);margin:0 16px 24px;border-radius:20px;overflow:hidden;border:1px solid var(--border-soft)}
+.stat{padding:14px 8px;text-align:center;background:var(--bg2)}
+.stat-n{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;background:linear-gradient(135deg,var(--blue-light),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat-l{font-size:9px;letter-spacing:0.1em;color:var(--text-muted);display:block;margin-top:3px}
 
-<style>
-/* ═══════ DARK THEME ═══════ */
-[data-theme="dark"] {
-  --bg:           #04060F;
-  --bg2:          #080C1A;
-  --bg3:          #0C1220;
-  --surface:      rgba(255,255,255,0.035);
-  --surface2:     rgba(255,255,255,0.06);
-  --gold:         #C9A84C;
-  --gold-light:   #E8C97A;
-  --gold-pale:    rgba(201,168,76,0.1);
-  --gold-border:  rgba(201,168,76,0.22);
-  --blue:         #3B82F6;
-  --blue-deep:    #1D4ED8;
-  --blue-light:   #60A5FA;
-  --blue-pale:    rgba(59,130,246,0.08);
-  --blue-border:  rgba(59,130,246,0.22);
-  --text:         #EEF2FF;
-  --text-muted:   #6B7CB0;
-  --text-dim:     #2E3A60;
-  --border-soft:  rgba(255,255,255,0.055);
-  --border:       rgba(255,255,255,0.1);
-  --shd-blue:     0 8px 32px rgba(29,78,216,0.5), 0 2px 8px rgba(59,130,246,0.2), 0 0 0 1px rgba(59,130,246,0.12);
-  --shd-gold:     0 8px 32px rgba(201,168,76,0.32), 0 2px 8px rgba(201,168,76,0.18);
-  --shd-card:     0 4px 28px rgba(0,0,0,0.55), 0 1px 4px rgba(0,0,0,0.35);
-  --shd-glow:     0 0 80px rgba(29,78,216,0.18), 0 0 160px rgba(29,78,216,0.07);
-  --header-bg:    rgba(4,6,15,0.88);
-}
+/* BUTTON */
+.ctag{padding:0 16px;display:flex;flex-direction:column;gap:10px;margin-bottom:28px}
+.btn{display:block;text-align:center;padding:14px 20px;border-radius:20px;font-family:'Syne',sans-serif;font-size:14px;font-weight:700;text-decoration:none;transition:transform 0.1s}
+.btn:active{transform:scale(0.97)}
+.btn-gold{background:linear-gradient(135deg,var(--gold-light),var(--gold),#7A5510);color:#0a0700;border:1px solid rgba(201,168,76,0.35);box-shadow:var(--shd-gold)}
+.btn-blue{background:linear-gradient(135deg,var(--blue),var(--blue-deep));color:#fff;box-shadow:var(--shd-blue)}
+.btn-ghost{background:var(--blue-pale);color:var(--blue-light);border:1px solid var(--gold-border)}
 
-/* ═══════ LIGHT THEME ═══════ */
-[data-theme="light"] {
-  --bg:           #EFF3FF;
-  --bg2:          #FFFFFF;
-  --bg3:          #E2E8FF;
-  --surface:      rgba(37,99,235,0.04);
-  --surface2:     rgba(37,99,235,0.08);
-  --gold:         #A16207;
-  --gold-light:   #CA8A04;
-  --gold-pale:    rgba(161,98,7,0.08);
-  --gold-border:  rgba(161,98,7,0.22);
-  --blue:         #2563EB;
-  --blue-deep:    #1E40AF;
-  --blue-light:   #3B82F6;
-  --blue-pale:    rgba(37,99,235,0.06);
-  --blue-border:  rgba(37,99,235,0.2);
-  --text:         #0F172A;
-  --text-muted:   #475569;
-  --text-dim:     #94A3B8;
-  --border-soft:  rgba(37,99,235,0.09);
-  --border:       rgba(37,99,235,0.16);
-  --shd-blue:     0 6px 24px rgba(37,99,235,0.18), 0 2px 6px rgba(37,99,235,0.1);
-  --shd-gold:     0 6px 24px rgba(161,98,7,0.18),  0 2px 6px rgba(161,98,7,0.1);
-  --shd-card:     0 2px 16px rgba(30,64,175,0.07), 0 1px 3px rgba(30,64,175,0.05);
-  --shd-glow:     0 0 60px rgba(37,99,235,0.06);
-  --header-bg:    rgba(239,243,255,0.92);
-}
+/* RTP SECTION */
+.slabel{padding:0 16px;margin-bottom:12px;display:flex;justify-content:space-between}
+.slabel h2{font-family:'Syne',sans-serif;font-size:15px;font-weight:700}
+.live{display:flex;align-items:center;gap:5px;font-size:10px;color:#4ade80}
+.live::before{content:'';width:6px;height:6px;border-radius:50%;background:#4ade80;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.35}}
+.rtp-card{margin:0 16px 24px;background:var(--bg2);border:1px solid var(--border-soft);border-radius:20px;overflow:hidden}
+.rtp-row{display:flex;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--border-soft)}
+.rtp-l{display:flex;gap:10px;align-items:center}
+.rtp-icon{width:34px;height:34px;border-radius:10px;background:var(--surface);display:flex;align-items:center;justify-content:center;font-size:16px}
+.rtp-name{font-size:12px;font-weight:600;margin-bottom:3px}
+.rtag{font-size:9px;font-weight:700;padding:2px 7px;border-radius:100px;letter-spacing:0.08em}
+.t-hot{background:rgba(239,68,68,0.15);color:#f87171}
+.t-top{background:rgba(59,130,246,0.15);color:var(--blue-light)}
+.rtp-r{text-align:right}
+.rtp-pct{font-family:'Syne',sans-serif;font-size:14px;font-weight:800;color:#4ade80}
+.rbar{width:70px;height:3px;background:var(--surface);border-radius:100px;margin-top:4px;overflow:hidden}
+.rbar-f{height:100%;background:linear-gradient(90deg,var(--blue),#4ade80);border-radius:100px}
 
-/* ═══════ BASE ═══════ */
-* { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior:smooth; }
-body {
-  font-family:'DM Sans',sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  min-height:100vh;
-  overflow-x:hidden;
-  transition:background 0.4s ease, color 0.3s ease;
-}
-
-/* AMBIENT BLOBS */
-.ambient { position:fixed; inset:0; pointer-events:none; z-index:0; overflow:hidden; }
-.ab {
-  position:absolute; border-radius:50%; filter:blur(90px);
-  transition:opacity 0.4s;
-}
-.ab1 { width:520px; height:520px; top:-160px; left:-110px; background:radial-gradient(circle, rgba(29,78,216,0.2) 0%, transparent 70%); }
-.ab2 { width:400px; height:400px; bottom:0; right:-80px; background:radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%); }
-.ab3 { width:280px; height:280px; top:45%; left:50%; transform:translateX(-50%); background:radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 70%); }
-[data-theme="light"] .ab1 { background:radial-gradient(circle, rgba(37,99,235,0.1) 0%, transparent 70%); }
-[data-theme="light"] .ab2 { background:radial-gradient(circle, rgba(37,99,235,0.07) 0%, transparent 70%); }
-[data-theme="light"] .ab3 { background:radial-gradient(circle, rgba(161,98,7,0.04) 0%, transparent 70%); }
-
-/* PAGE */
-.page { position:relative; z-index:2; max-width:480px; margin:0 auto; padding:0 0 72px; }
-
-/* ── HEADER ── */
-.header {
-  display:flex; align-items:center; justify-content:space-between;
-  padding:16px 22px;
-  border-bottom:1px solid var(--border-soft);
-  background:var(--header-bg);
-  backdrop-filter:blur(24px);
-  position:sticky; top:0; z-index:100;
-  transition:background 0.4s;
-}
-.header-logo {
-  font-family:'Syne',sans-serif; font-weight:800; font-size:18px;
-  letter-spacing:0.06em;
-  background:linear-gradient(135deg, var(--blue-light), var(--blue));
-  -webkit-background-clip:text; background-clip:text; color:transparent;
-}
-.header-right { display:flex; align-items:center; gap:10px; }
-.header-badge {
-  font-size:10px; font-weight:600; letter-spacing:0.09em;
-  color:var(--gold); background:var(--gold-pale); border:1px solid var(--gold-border);
-  padding:4px 11px; border-radius:100px; text-transform:uppercase;
-}
-
-/* TOGGLE */
-.tog {
-  width:42px; height:23px; border-radius:100px;
-  border:1px solid var(--border); background:var(--surface2);
-  cursor:pointer; position:relative;
-  transition:background 0.3s, border-color 0.3s;
-  flex-shrink:0;
-}
-.tog-k {
-  position:absolute; top:2px; left:2px;
-  width:17px; height:17px; border-radius:50%;
-  background:var(--blue-light);
-  box-shadow:0 2px 8px rgba(59,130,246,0.55);
-  transition:transform 0.35s cubic-bezier(0.34,1.56,0.64,1), background 0.3s, box-shadow 0.3s;
-  display:flex; align-items:center; justify-content:center;
-  font-size:9px; line-height:1; user-select:none;
-}
-[data-theme="light"] .tog-k { transform:translateX(19px); background:var(--gold-light); box-shadow:0 2px 8px rgba(202,138,4,0.45); }
-[data-theme="light"] .tog { background:var(--gold-pale); border-color:var(--gold-border); }
-
-/* ── HERO ── */
-.hero { padding:44px 24px 34px; text-align:center; position:relative; }
-
-.logo-wrapper { width:110px; height:110px; margin:0 auto 26px; position:relative; }
-.logo-image { width:100%; height:100%; object-fit:cover; border-radius:50%; box-shadow:0 0 0 4px rgba(59,130,246,0.3), 0 0 0 8px rgba(59,130,246,0.1), 0 0 40px var(--blue-light); transition:all 0.3s ease; }
-.logo-wrapper::before {
-  content:''; position:absolute; inset:-6px; border-radius:50%;
-  background:conic-gradient(var(--blue-light), var(--blue), var(--blue-deep), transparent 45%, var(--blue-deep), var(--blue), var(--blue-light));
-  animation:spin 5s linear infinite; opacity:0.85; z-index:-1;
-}
-@keyframes spin { to { transform:rotate(360deg); } }
-
-.hero-title {
-  font-family:'Syne',sans-serif; font-size:31px; font-weight:800;
-  letter-spacing:-0.03em; line-height:1.08;
-  background:linear-gradient(155deg, var(--text) 15%, var(--blue-light) 100%);
-  -webkit-background-clip:text; background-clip:text; color:transparent;
-  margin-bottom:8px;
-}
-[data-theme="light"] .hero-title { background:linear-gradient(155deg, #0F172A 20%, var(--blue) 100%); -webkit-background-clip:text; background-clip:text; }
-.hero-sub { font-size:12px; color:var(--text-muted); letter-spacing:0.1em; text-transform:uppercase; }
-
-/* ── STATS ── */
-.stats {
-  display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
-  background:var(--border-soft);
-  margin:0 22px 30px; border-radius:20px; overflow:hidden;
-  border:1px solid var(--border-soft);
-  box-shadow:var(--shd-card), var(--shd-glow);
-}
-.stat { padding:18px 10px; text-align:center; background:var(--bg2); transition:background 0.2s; }
-.stat:hover { background:var(--bg3); }
-.stat-n {
-  font-family:'Syne',sans-serif; font-size:22px; font-weight:800;
-  background:linear-gradient(135deg, var(--blue-light), var(--blue));
-  -webkit-background-clip:text; background-clip:text; color:transparent;
-  display:block;
-}
-.stat-l { font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-top:4px; display:block; }
-
-/* ── BUTTONS ── */
-.ctag { padding:0 22px; display:flex; flex-direction:column; gap:11px; margin-bottom:32px; }
-.btn {
-  display:flex; align-items:center; justify-content:center; gap:10px;
-  padding:15px 24px; border-radius:20px;
-  font-family:'Syne',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.04em;
-  text-decoration:none; cursor:pointer;
-  transition:transform 0.15s, box-shadow 0.2s;
-  position:relative; overflow:hidden;
-}
-.btn:active { transform:scale(0.975); }
-.btn::after { content:''; position:absolute; inset:0; background:linear-gradient(135deg, rgba(255,255,255,0.11) 0%, transparent 55%); pointer-events:none; }
-.btn-ico { width:18px; height:18px; flex-shrink:0; }
-
-.btn-gold { background:linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, #7A5510 100%); color:#0a0700; border:1px solid rgba(201,168,76,0.35); box-shadow:var(--shd-gold); }
-[data-theme="light"] .btn-gold { color:#fff; }
-.btn-gold:hover { box-shadow:0 14px 44px rgba(201,168,76,0.48), 0 4px 12px rgba(201,168,76,0.28); }
-
-.btn-blue { background:linear-gradient(135deg, var(--blue) 0%, var(--blue-deep) 100%); color:#fff; border:1px solid rgba(59,130,246,0.35); box-shadow:var(--shd-blue); }
-.btn-blue:hover { box-shadow:0 14px 44px rgba(29,78,216,0.6), 0 4px 12px rgba(59,130,246,0.35); }
-
-.btn-ghost { background:var(--blue-pale); color:var(--blue-light); border:1px solid var(--blue-border); backdrop-filter:blur(8px); }
-[data-theme="light"] .btn-ghost { color:var(--blue); }
-.btn-ghost:hover { background:rgba(59,130,246,0.13); box-shadow:0 4px 20px rgba(59,130,246,0.22); }
-
-/* ── SECTION LABEL ── */
-.slabel { padding:0 22px; margin-bottom:14px; display:flex; align-items:center; justify-content:space-between; }
-.slabel h2 { font-family:'Syne',sans-serif; font-size:16px; font-weight:700; color:var(--text); }
-.slabel span { font-size:11px; color:var(--text-muted); }
-.live { display:flex; align-items:center; gap:6px; font-size:11px; font-weight:500; color:#4ade80; }
-.live::before { content:''; width:6px; height:6px; border-radius:50%; background:#4ade80; box-shadow:0 0 6px #4ade80; animation:pdot 1.5s ease-in-out infinite; }
-@keyframes pdot { 0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.35;transform:scale(0.7);} }
-
-/* ── RTP CARD ── */
-.rtp-card { margin:0 22px 30px; background:var(--bg2); border:1px solid var(--border-soft); border-radius:20px; overflow:hidden; box-shadow:var(--shd-card), var(--shd-glow); }
-[data-theme="dark"] .rtp-card { border-color:rgba(59,130,246,0.1); }
-
-.rtp-row { display:flex; align-items:center; justify-content:space-between; padding:14px 18px; border-bottom:1px solid var(--border-soft); transition:background 0.15s; cursor:pointer; }
-.rtp-row:last-child { border-bottom:none; }
-.rtp-row:hover { background:var(--blue-pale); }
-
-.rtp-l { display:flex; align-items:center; gap:12px; }
-.rtp-icon { width:38px; height:38px; border-radius:11px; background:var(--surface); border:1px solid var(--border-soft); display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
-[data-theme="dark"] .rtp-icon { box-shadow:0 2px 10px rgba(59,130,246,0.15); }
-.rtp-name { font-size:13px; font-weight:500; color:var(--text); line-height:1.3; }
-.rtag { display:inline-block; font-size:9px; font-weight:700; letter-spacing:0.07em; padding:2px 7px; border-radius:5px; margin-top:2px; text-transform:uppercase; }
-.t-hot { background:rgba(239,68,68,0.14); color:#f87171; }
-.t-new { background:rgba(167,139,250,0.14); color:#a78bfa; }
-.t-top { background:rgba(59,130,246,0.14); color:var(--blue-light); }
-
-.rtp-r { text-align:right; }
-.rtp-pct { font-family:'Syne',sans-serif; font-size:17px; font-weight:700; color:var(--blue-light); }
-[data-theme="dark"] .rtp-pct { text-shadow:0 0 14px rgba(96,165,250,0.45); }
-[data-theme="light"] .rtp-pct { color:var(--blue); }
-.rbar { width:55px; height:3px; background:rgba(59,130,246,0.1); border-radius:3px; margin-top:5px; margin-left:auto; overflow:hidden; }
-.rbar-f { height:100%; border-radius:3px; background:linear-gradient(90deg, var(--blue-deep), var(--blue-light)); }
-[data-theme="dark"] .rbar-f { box-shadow:0 0 6px rgba(96,165,250,0.45); }
-
-/* ── PROMO ── */
-.pbanner {
-  margin:0 22px 14px;
-  background:linear-gradient(135deg, rgba(59,130,246,0.1), rgba(29,78,216,0.04));
-  border:1px solid var(--blue-border); border-radius:20px;
-  padding:18px 20px; display:flex; align-items:center; gap:14px;
-  position:relative; overflow:hidden;
-  box-shadow:var(--shd-blue);
-}
-[data-theme="light"] .pbanner { box-shadow:0 4px 20px rgba(37,99,235,0.12); }
-.pbanner::before { content:''; position:absolute; top:-40px; right:-40px; width:120px; height:120px; border-radius:50%; background:radial-gradient(circle, rgba(59,130,246,0.22), transparent 70%); }
-.pbanner-ico { font-size:28px; flex-shrink:0; }
-.pbanner-t h3 { font-family:'Syne',sans-serif; font-size:13px; font-weight:800; color:var(--blue-light); letter-spacing:0.02em; margin-bottom:3px; }
-[data-theme="light"] .pbanner-t h3 { color:var(--blue-deep); }
-.pbanner-t p { font-size:11px; color:var(--text-muted); line-height:1.4; }
-
-.pdiv { margin:0 22px 12px; display:flex; align-items:center; gap:10px; }
-.pdiv-l { flex:1; height:1px; background:var(--border-soft); }
-.pdiv-t { font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-dim); font-weight:600; }
-
-.plist { margin:0 22px 26px; display:flex; flex-direction:column; gap:9px; }
-.pitem {
-  background:var(--bg2); border:1px solid var(--border-soft); border-radius:12px;
-  padding:13px 15px; display:flex; align-items:center; gap:13px;
-  transition:border-color 0.2s, transform 0.15s, box-shadow 0.2s;
-  position:relative; overflow:hidden;
-  box-shadow:var(--shd-card);
-}
-.pitem::before { content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:linear-gradient(180deg, var(--blue-light), var(--blue-deep)); opacity:0; transition:opacity 0.2s; }
-.pitem:hover { border-color:var(--blue-border); transform:translateX(3px); box-shadow:var(--shd-blue); }
-.pitem:hover::before { opacity:1; }
-
-.pico { width:42px; height:42px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
-.pi-blue   { background:rgba(59,130,246,0.12); }
-.pi-indigo { background:rgba(99,102,241,0.12); }
-.pi-gold   { background:rgba(201,168,76,0.12); }
-.pi-cyan   { background:rgba(34,211,238,0.1); }
-.pi-violet { background:rgba(167,139,250,0.12); }
-[data-theme="dark"] .pi-blue   { box-shadow:0 2px 10px rgba(59,130,246,0.22); }
-[data-theme="dark"] .pi-indigo { box-shadow:0 2px 10px rgba(99,102,241,0.22); }
-[data-theme="dark"] .pi-gold   { box-shadow:0 2px 10px rgba(201,168,76,0.22); }
-[data-theme="dark"] .pi-cyan   { box-shadow:0 2px 10px rgba(34,211,238,0.18); }
-[data-theme="dark"] .pi-violet { box-shadow:0 2px 10px rgba(167,139,250,0.22); }
-
-.pbody { flex:1; }
-.pt { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; color:var(--text); margin-bottom:2px; line-height:1.3; }
-.pd { font-size:11px; color:var(--text-muted); line-height:1.4; }
-.pval { font-family:'Syne',sans-serif; font-size:17px; font-weight:800; color:var(--blue-light); white-space:nowrap; text-align:right; }
-[data-theme="dark"] .pval { text-shadow:0 0 10px rgba(96,165,250,0.4); }
-[data-theme="light"] .pval { color:var(--blue-deep); }
-.pval small { display:block; font-size:10px; font-weight:400; color:var(--text-muted); font-family:'DM Sans',sans-serif; margin-top:2px; text-shadow:none; }
-
-/* ── FOOTER ── */
-.footer { margin:8px 22px 0; padding-top:22px; border-top:1px solid var(--border-soft); text-align:center; }
-.f-brand { font-family:'Syne',sans-serif; font-size:15px; font-weight:800; background:linear-gradient(135deg, var(--blue-light), var(--blue)); -webkit-background-clip:text; background-clip:text; color:transparent; margin-bottom:6px; }
-.f-meta { font-size:11px; color:var(--text-dim); line-height:1.9; }
-.f-dots { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; }
-.f-dot { width:4px; height:4px; border-radius:50%; background:var(--blue-border); }
-
-/* ── ANIMATION ── */
-.fu { opacity:0; transform:translateY(16px); animation:fuA 0.5s ease forwards; }
-@keyframes fuA { to { opacity:1; transform:translateY(0); } }
-.d1{animation-delay:0.07s} .d2{animation-delay:0.14s} .d3{animation-delay:0.21s}
-.d4{animation-delay:0.28s} .d5{animation-delay:0.36s} .d6{animation-delay:0.46s}
-
-/* SECURITY: disable text selection & right click protection */
-body { user-select: none; -webkit-tap-highlight-color: transparent; }
-img, a { -webkit-user-drag: none; user-select: none; }
+/* PROMO */
+.pbanner{margin:0 16px 16px;background:linear-gradient(135deg,var(--gold-pale),var(--blue-pale));border:1px solid var(--gold-border);border-radius:20px;padding:16px;display:flex;align-items:center;gap:14px}
+.pbanner-ico{font-size:28px}
+.pbanner-t h3{font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--gold-light)}
+.pbanner-t p{font-size:10px;color:var(--text-muted)}
+.plist{margin:0 16px 24px;display:flex;flex-direction:column;gap:8px}
+.pitem{background:var(--bg2);border:1px solid var(--border-soft);border-radius:16px;padding:12px 14px;display:flex;align-items:center;gap:12px}
+.pico{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.pi-blue{background:rgba(59,130,246,0.12)}
+.pi-gold{background:rgba(201,168,76,0.12)}
+.pbody{flex:1}
+.pt{font-family:'Syne',sans-serif;font-size:12px;font-weight:700}
+.pd{font-size:10px;color:var(--text-muted)}
+.pval{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--blue-light);text-align:right}
+.footer{margin:8px 16px 0;padding-top:18px;border-top:1px solid var(--border-soft);text-align:center}
+.f-brand{font-family:'Syne',sans-serif;font-size:14px;font-weight:800;background:linear-gradient(135deg,var(--blue-light),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.f-meta{font-size:10px;color:var(--text-muted)}
+.fu{opacity:0;transform:translateY(16px);animation:fuA 0.5s ease forwards}
+@keyframes fuA{to{opacity:1;transform:translateY(0)}}
+.d1{animation-delay:0.05s}.d2{animation-delay:0.1s}.d3{animation-delay:0.15s}.d4{animation-delay:0.2s}.d5{animation-delay:0.25s}
 </style>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
-
 <body>
-<div class="ambient">
-  <div class="ab ab1"></div>
-  <div class="ab ab2"></div>
-  <div class="ab ab3"></div>
-</div>
-
+<div class="ambient"><div class="ab ab1"></div><div class="ab ab2"></div></div>
 <div class="page">
 
-  <!-- HEADER -->
-  <header class="header fu">
-    <div class="header-logo">BOLAPELANGI</div>
-    <div class="header-right">
-      <div class="header-badge">LOGIN</div>
-      <button class="tog" onclick="toggleTheme()" aria-label="Ganti tema">
-        <div class="tog-k" id="knob">☾</div>
-      </button>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero fu d1">
-    <div class="logo-wrapper">
-      <img class="logo-image" src="https://the.splg.site/images/2026/04/24/imagefd033afb026599ca.png" 
-           alt="Bolapelangi Logo" 
-           onerror="this.onerror=null; this.parentElement.style.display='none';">
-    </div>
-    <h1 class="hero-title">Bolapelangi<br>Official</h1>
-    <p class="hero-sub">Daftar· VIP Platinum</p>
-  </section>
-
-  <!-- STATS -->
-  <div class="stats fu d2">
-    <div class="stat"><span class="stat-n">125</span><span class="stat-l">Win</span></div>
-    <div class="stat"><span class="stat-n">2.5M</span><span class="stat-l">Saldo</span></div>
-    <div class="stat"><span class="stat-n">58</span><span class="stat-l">Lose</span></div>
-  </div>
-
-  <!-- CTA Button dengan Link Terenkripsi (tidak terlihat di view-source) -->
-  <div class="ctag fu d2">
-    <div class="btn btn-gold" data-link-type="daftar">
-      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Daftar Sekarang
-    </div>
-    <div class="btn btn-blue" data-link-type="login">
-      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke-linecap="round"/></svg>
-      Login Akun
-    </div>
-    <div class="btn btn-ghost" data-link-type="rtp">
-      <svg class="btn-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-      RTP Live Hari Ini
+<header class="header fu">
+  <div class="header-logo">BOLAPELANGI</div>
+  <div class="header-right" style="display:flex;align-items:center;gap:10px">
+    <a href="https://shortq.org/bolapelangi" class="header-badge" target="_blank" rel="noopener noreferrer">LOGIN</a>
+    <div class="tog" role="button" tabindex="0" onclick="toggleThemeAMP()">
+      <div class="tog-k" id="toggleKnob"></div>
     </div>
   </div>
+</header>
 
-  <!-- RTP -->
-  <div class="slabel fu d3">
-    <h2>RTP Game Terupdate</h2>
-    <div class="live">Live</div>
+<!-- BANNER CAROUSEL UTAMA - HANYA 2 SLIDE -->
+<div class="banner-area fu d1">
+  <amp-carousel width="450" height="200" layout="responsive" type="slides" autoplay delay="4000" loop>
+    <amp-img src="https://the.splg.site/images/2026/01/06/image735d78e81c579fa5.png" width="450" height="200" alt="Promo Utama 1"></amp-img>
+    <amp-img src="https://the.splg.site/images/2026/01/06/imaged57902fcc21850b0.png" width="450" height="200" alt="Promo Utama 2"></amp-img>
+  </amp-carousel>
+  <div class="carousel-caption"><p>✨ Promo Spesial Harian - Klik Login untuk Klaim ✨</p></div>
+</div>
+
+<section class="hero fu d2">
+  <div class="logo-wrapper">
+    <amp-img class="logo-image" src="https://the.splg.site/images/2026/04/24/imagefd033afb026599ca.png" width="90" height="90" alt="Logo" layout="fixed"></amp-img>
   </div>
-  <div class="rtp-card fu d3">
-    <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🀄</div><div><div class="rtp-name">Mahjong Ways</div><span class="rtag t-hot">Hot</span></div></div><div class="rtp-r"><div class="rtp-pct">97.8%</div><div class="rbar"><div class="rbar-f" style="width:97.8%"></div></div></div></div>
-    <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">⚡</div><div><div class="rtp-name">Gates of Olympus</div><span class="rtag t-top">Top</span></div></div><div class="rtp-r"><div class="rtp-pct">98.1%</div><div class="rbar"><div class="rbar-f" style="width:98.1%"></div></div></div></div>
-    <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">✨</div><div><div class="rtp-name">Starlight Princess</div><span class="rtag t-new">New</span></div></div><div class="rtp-r"><div class="rtp-pct">96.5%</div><div class="rbar"><div class="rbar-f" style="width:96.5%"></div></div></div></div>
-    <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🍬</div><div><div class="rtp-name">Sweet Bonanza</div><span class="rtag t-hot">Hot</span></div></div><div class="rtp-r"><div class="rtp-pct">95.8%</div><div class="rbar"><div class="rbar-f" style="width:95.8%"></div></div></div></div>
-    <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🤠</div><div><div class="rtp-name">Wild West Gold</div><span class="rtag t-top">Top</span></div></div><div class="rtp-r"><div class="rtp-pct">97.3%</div><div class="rbar"><div class="rbar-f" style="width:97.3%"></div></div></div></div>
-  </div>
+  <h1 class="hero-title">Bolapelangi<br>Official Partner</h1>
+  <p class="hero-sub">Daftar · VIP Platinum · RTP Live</p>
+</section>
 
-  <!-- PROMO -->
-  <div class="slabel fu d4"><h2>Promo Terbaru</h2><span>Masih berlaku</span></div>
-  <div class="pbanner fu d4"><div class="pbanner-ico">🎁</div><div class="pbanner-t"><h3>PROMO TERBARU BOLAPELANGI</h3><p>Bonus & Cashback mingguan aktif · Referral seumur hidup</p></div></div>
+<div class="stats fu d2">
+  <div class="stat"><span class="stat-n">125</span><span class="stat-l">Win</span></div>
+  <div class="stat"><span class="stat-n">2.5M</span><span class="stat-l">Saldo</span></div>
+  <div class="stat"><span class="stat-n">58</span><span class="stat-l">Lose</span></div>
+</div>
 
-  <div class="pdiv fu d4"><div class="pdiv-l"></div><div class="pdiv-t">Cashback Mingguan</div><div class="pdiv-l"></div></div>
-  <div class="plist fu d4">
-    <div class="pitem"><div class="pico pi-blue">🏆</div><div class="pbody"><div class="pt">Cashback Sportsbook</div><div class="pd">Berlaku setiap minggu untuk semua member</div></div><div class="pval">15%<small>per minggu</small></div></div>
-    <div class="pitem"><div class="pico pi-indigo">🎰</div><div class="pbody"><div class="pt">Cashback Slot</div><div class="pd">Berlaku setiap minggu untuk semua member</div></div><div class="pval">15%<small>per minggu</small></div></div>
-  </div>
+<div class="ctag fu d2">
+  <a href="https://shortq.info/prediksibola" class="btn btn-gold" target="_blank" rel="noopener noreferrer">✨ Prediksi &amp; Jadwal Bola</a>
+  <a href="https://shortq.org/bolapelangi" class="btn btn-blue" target="_blank" rel="noopener noreferrer">🔐 Login Akun &amp; Klaim Bonus</a>
+  <a href="https://shortq.org/bolapelangi" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">🎲 RTP Live Hari Ini</a>
+</div>
 
-  <div class="pdiv fu d5"><div class="pdiv-l"></div><div class="pdiv-t">Bonus Referral</div><div class="pdiv-l"></div></div>
-  <div class="plist fu d5">
-    <div class="pitem"><div class="pico pi-gold">🤝</div><div class="pbody"><div class="pt">Referral Sportsbook</div><div class="pd">Bonus seumur hidup dari setiap referral</div></div><div class="pval">2.5%<small>seumur hidup</small></div></div>
-    <div class="pitem"><div class="pico pi-cyan">🔁</div><div class="pbody"><div class="pt">Rollingan Referral Sportsbook</div><div class="pd">Bonus rollingan dari referral sportsbook</div></div><div class="pval">0.1%<small>rollingan</small></div></div>
-    <div class="pitem"><div class="pico pi-violet">🎲</div><div class="pbody"><div class="pt">Rollingan Casino GD88</div><div class="pd">Bonus rollingan khusus Casino GD88</div></div><div class="pval">0.8%<small>rollingan</small></div></div>
-  </div>
+<!-- BANNER PROMO FULL WIDTH -->
+<div class="banner-area fu d3" style="margin-bottom:20px">
+  <amp-img src="https://the.splg.site/images/2026/01/06/imaged57902fcc21850b0.png" width="450" height="100" layout="responsive" alt="Promo Full Banner"></amp-img>
+</div>
 
-  <!-- FOOTER -->
-  <footer class="footer fu d6">
-    <div class="f-brand">BOLAPELANGI</div>
-    <div class="f-meta">© 2026 Joker Leader · Bolapelangi<br>Lisensi Resmi · Support 24 Jam</div>
-    <div class="f-dots"><div class="f-dot"></div><div class="f-dot"></div><div class="f-dot"></div></div>
-  </footer>
+<div class="slabel fu d3"><h2>RTP Game Terupdate</h2><div class="live">Live</div></div>
+<div class="rtp-card fu d3">
+  <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🀄</div><div><div class="rtp-name">Mahjong Ways</div><span class="rtag t-hot">Hot</span></div></div><div class="rtp-r"><div class="rtp-pct">97.8%</div><div class="rbar"><div class="rbar-f" style="width:97.8%"></div></div></div></div>
+  <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">⚡</div><div><div class="rtp-name">Gates of Olympus</div><span class="rtag t-top">Top</span></div></div><div class="rtp-r"><div class="rtp-pct">98.1%</div><div class="rbar"><div class="rbar-f" style="width:98.1%"></div></div></div></div>
+  <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">✨</div><div><div class="rtp-name">Starlight Princess</div><span class="rtag t-top">New</span></div></div><div class="rtp-r"><div class="rtp-pct">96.5%</div><div class="rbar"><div class="rbar-f" style="width:96.5%"></div></div></div></div>
+  <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🍬</div><div><div class="rtp-name">Sweet Bonanza</div><span class="rtag t-hot">Hot</span></div></div><div class="rtp-r"><div class="rtp-pct">95.8%</div><div class="rbar"><div class="rbar-f" style="width:95.8%"></div></div></div></div>
+  <div class="rtp-row"><div class="rtp-l"><div class="rtp-icon">🤠</div><div><div class="rtp-name">Wild West Gold</div><span class="rtag t-top">Top</span></div></div><div class="rtp-r"><div class="rtp-pct">97.3%</div><div class="rbar"><div class="rbar-f" style="width:97.3%"></div></div></div></div>
+</div>
+
+<div class="slabel fu d4"><h2>Promo Spesial</h2><span>Bonus Berlipat</span></div>
+<div class="pbanner fu d4">
+  <div class="pbanner-ico">🎁</div>
+  <div class="pbanner-t"><h3>PROMO BOLAPELANGI</h3><p>Bonus Deposit &amp; Cashback mingguan aktif</p></div>
+</div>
+
+<div class="plist fu d4">
+  <div class="pitem"><div class="pico pi-blue">🏆</div><div class="pbody"><div class="pt">Cashback Sportsbook</div><div class="pd">per minggu</div></div><div class="pval">15%</div></div>
+  <div class="pitem"><div class="pico pi-gold">🎰</div><div class="pbody"><div class="pt">Cashback Slot</div><div class="pd">per minggu</div></div><div class="pval">15%</div></div>
+  <div class="pitem"><div class="pico pi-blue">🤝</div><div class="pbody"><div class="pt">Referral Seumur Hidup</div><div class="pd">Sportsbook</div></div><div class="pval">2.5%</div></div>
+  <div class="pitem"><div class="pico pi-gold">🔄</div><div class="pbody"><div class="pt">Rollingan Referral</div><div class="pd">Sportsbook</div></div><div class="pval">0.1%</div></div>
+</div>
+
+<!-- BANNER BAWAH SEBELUM FOOTER -->
+<div class="banner-area fu d5">
+  <amp-img src="https://the.splg.site/images/2026/01/06/image735d78e81c579fa5.png" width="450" height="120" layout="responsive" alt="Bonus Akhir Pekan" class="banner-img"></amp-img>
+</div>
+
+<footer class="footer fu d5">
+  <div class="f-brand">BOLAPELANGI</div>
+  <div class="f-meta">© 2026 Joker Leader · Support 24 Jam · Bonus Melimpah</div>
+</footer>
 
 </div>
 
 <script>
-// ═══════════════════════════════════════════════
-// 🔒 PRIVACY & SECURITY - LINK OBFUSCATION
-// Link asli TIDAK terlihat di view-source!
-// 🔒 Menggunakan Base64 + XOR + Dynamic Redirect
-// ═══════════════════════════════════════════════
-
-// ========== ENCRYPTED LINKS ==========
-// Base64 encoded + custom XOR key
-// Original links are HIDDEN from view-source
-const encryptedLinks = {
-  daftar: "aHR0cHM6Ly9zaG9ydHEub3JnL2JvbGFwZWxhbmdp",     // https://shortq.org/bolapelangi (Base64)
-  login:  "aHR0cHM6Ly9zaG9ydHEub3JnL2JvbGFwZWxhbmdp",     // https://shortq.org/bolapelangi
-  rtp:    "aHR0cHM6Ly9wb3Jvcm9raXRhLnZlcmNlbC5hcHAv"      // https://pororokita.vercel.app/
-};
-
-// Decode Base64
-function decodeBase64(encoded) {
-  try {
-    return atob(encoded);
-  } catch(e) {
-    return "";
-  }
-}
-
-// Membuka link dengan aman
-function openSecureLink(linkType) {
-  let encoded = "";
-  switch(linkType) {
-    case "daftar": encoded = encryptedLinks.daftar; break;
-    case "login":  encoded = encryptedLinks.login; break;
-    case "rtp":    encoded = encryptedLinks.rtp; break;
-    default: return;
-  }
-  
-  const decodedUrl = decodeBase64(encoded);
-  if(decodedUrl && (decodedUrl.startsWith("https://") || decodedUrl.startsWith("http://"))) {
-    // Security: open with noopener noreferrer
-    window.open(decodedUrl, "_blank", "noopener,noreferrer");
-  }
-}
-
-// ========== EVENT LISTENER UNTUK BUTTON ==========
-document.querySelectorAll('.btn[data-link-type]').forEach(btn => {
-  btn.addEventListener('click', function(e) {
-    e.preventDefault();
-    const linkType = this.getAttribute('data-link-type');
-    openSecureLink(linkType);
-  });
-});
-
-// ========== TOGGLE THEME (dark/light) ==========
-function toggleTheme(){
-  const h = document.documentElement;
-  const k = document.getElementById('knob');
-  const dark = h.getAttribute('data-theme') === 'dark';
-  h.setAttribute('data-theme', dark ? 'light' : 'dark');
-  k.textContent = dark ? '☀' : '☾';
-}
-
-// Auto match system preference
-if(window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches){
-  document.documentElement.setAttribute('data-theme','light');
-  const knob = document.getElementById('knob');
-  if(knob) knob.textContent = '☀';
-}
-
-// ========== ANTI VIEW-SOURCE / INSPECT ==========
-// Optional: Console clear prevent easy debug
-(function antiInspect() {
-  // Disable right click
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    return false;
-  });
-  
-  // Disable F12 / Ctrl+Shift+I / Ctrl+U / Ctrl+S
-  document.addEventListener('keydown', function(e) {
-    // F12
-    if(e.key === 'F12') {
-      e.preventDefault();
-      return false;
-    }
-    // Ctrl+Shift+I (Windows/Linux)
-    if(e.ctrlKey && e.shiftKey && e.key === 'I') {
-      e.preventDefault();
-      return false;
-    }
-    // Ctrl+U (view source)
-    if(e.ctrlKey && e.key === 'u') {
-      e.preventDefault();
-      return false;
-    }
-    // Ctrl+S (save)
-    if(e.ctrlKey && e.key === 's') {
-      e.preventDefault();
-      return false;
-    }
-    // Ctrl+Shift+C (inspect element)
-    if(e.ctrlKey && e.shiftKey && e.key === 'C') {
-      e.preventDefault();
-      return false;
-    }
-    // Ctrl+Shift+J (console)
-    if(e.ctrlKey && e.shiftKey && e.key === 'J') {
-      e.preventDefault();
-      return false;
-    }
-  });
-  
-  // Hapus console.log dari developer (optional)
-  console.clear();
-  console.log("%c🔒 Keamanan Diaktifkan", "color: #3B82F6; font-size: 16px;");
-})();
-
-// ========== CLOAKING: Ganti title jika view-source dideteksi ==========
-if(window.document.documentMode || /WebKit/.test(navigator.userAgent)) {
-  // subtle protection
-}
+function toggleThemeAMP(){var e=document.documentElement.getAttribute("data-theme")==="light";e?document.documentElement.setAttribute("data-theme","dark"):document.documentElement.setAttribute("data-theme","light")}
+(function(){var e=window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches;e?document.documentElement.setAttribute("data-theme","light"):document.documentElement.setAttribute("data-theme","dark")})();
+document.addEventListener('copy',function(e){e.preventDefault();alert('❌ Konten tidak dapat disalin!');return false});
+document.addEventListener('contextmenu',function(e){e.preventDefault();return false});
+document.addEventListener('keydown',function(e){if(e.key==='F12'||(e.ctrlKey&&e.key==='u')){e.preventDefault();alert('Source code tidak dapat diakses');}});
 </script>
 </body>
 </html>
